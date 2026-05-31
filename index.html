@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahwaduba Bus Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-bus"></i>
+                <span>Bahwaduba Bus Service</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#services" class="nav-link">Our Services</a></li>
+                <li><a href="#passenger-info" class="nav-link">Passenger Information</a></li>
+                <li><a href="#careers" class="nav-link">Careers</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-shield-alt"></i>
+                <span>Trusted Since 1976</span>
+            </div>
+            <h1>Bahwaduba Bus Service</h1>
+            <p class="tagline">Safe, Reliable, Comfortable Travel</p>
+            <p class="hero-description">Premium transport solutions connecting communities across South Africa with modern, comfortable buses and professional service.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary btn-glow">Explore Our Services</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Licensed & Insured</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>GPS Tracked Fleet</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>24/7 Support</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Bahwaduba Bus Service is a proudly South African transport company committed to providing safe, reliable, and comfortable travel solutions for communities across the region.</p>
+                    <p>Founded with a vision to connect people and places, we have grown to become a trusted name in public transportation. Our fleet of modern, well-maintained buses ensures that every journey is a pleasant experience.</p>
+                    <p>We are driven by our core values of safety, punctuality, affordability, and excellent customer service. Whether you're commuting daily or travelling long distances, Bahwaduba Bus Service is your partner on the road.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-bus"></i>
+                        <h3>50+</h3>
+                        <p>Modern Buses</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-route"></i>
+                        <h3>30+</h3>
+                        <p>Routes Covered</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h3>10,000+</h3>
+                        <p>Daily Passengers</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-award"></i>
+                        <h3>50+</h3>
+                        <p>Years of Service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3>City Transport</h3>
+                    <p>Reliable daily commuter services connecting key points within the city. Frequent schedules to get you where you need to be, on time.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3>Long-Distance Travel</h3>
+                    <p>Comfortable intercity and cross-province travel with spacious seating, air conditioning, and onboard amenities for a relaxing journey.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Private Hire</h3>
+                    <p>Customised transport solutions for corporate events, school trips, church outings, weddings, and special occasions. Tailored to your needs.</p>
+                </div>
+            </div>
+
+            <!-- Request a Quotation Form -->
+            <div class="quotation-section">
+                <div class="quotation-header">
+                    <div class="quotation-icon">
+                        <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <h3>Request a Quotation</h3>
+                    <p>Planning a trip? Fill in your details below and our team will provide you with a competitive quote within 24 hours.</p>
+                </div>
+                <form id="quotationForm" class="form quotation-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="q-name"><i class="fas fa-user"></i> Full Name</label>
+                            <input type="text" id="q-name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="q-phone"><i class="fas fa-phone"></i> Phone Number</label>
+                            <input type="tel" id="q-phone" name="phone" placeholder="e.g. 071 234 5678" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="q-email"><i class="fas fa-envelope"></i> Email Address</label>
+                            <input type="email" id="q-email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="q-date"><i class="fas fa-calendar-alt"></i> Travel Date</label>
+                            <input type="date" id="q-date" name="date" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="q-route"><i class="fas fa-route"></i> Route</label>
+                            <select id="q-route" name="route" required>
+                                <option value="">Select your route</option>
+                                <option value="cbd-mabopane">CBD Central → Mabopane</option>
+                                <option value="pretoria-hammanskraal">Pretoria Station → Hammanskraal</option>
+                                <option value="jhb-polokwane">Johannesburg → Polokwane</option>
+                                <option value="pretoria-mokopane">Pretoria → Mokopane</option>
+                                <option value="soshanguve-centurion">Soshanguve → Centurion</option>
+                                <option value="custom">Custom Route (specify below)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q-passengers"><i class="fas fa-users"></i> Number of Passengers</label>
+                            <input type="number" id="q-passengers" name="passengers" min="1" max="500" placeholder="e.g. 45" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="q-details"><i class="fas fa-comment-dots"></i> Additional Details (Optional)</label>
+                        <textarea id="q-details" name="details" rows="3" placeholder="Pick-up point, return trip needed, special requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i> Submit Quotation Request
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Passenger Information Section -->
+    <section id="passenger-info" class="section">
+        <div class="container">
+            <h2 class="section-title">Passenger Information</h2>
+
+            <!-- Important Notices / Alerts -->
+            <div class="info-block">
+                <h3><i class="fas fa-exclamation-circle"></i> Important Notices</h3>
+                <div class="alerts-section">
+                    <div class="alert alert-danger">
+                        <div class="alert-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="alert-content">
+                            <h4>Service Disruption</h4>
+                            <p>Route 12 (CBD – Soshanguve) temporarily diverted due to road construction on Solomon Mahlangu Drive. Allow 15 minutes extra travel time. Expected resolution: 20 June 2026.</p>
+                            <span class="alert-date"><i class="fas fa-calendar"></i> Posted: 28 May 2026</span>
+                        </div>
+                    </div>
+                    <div class="alert alert-warning">
+                        <div class="alert-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="alert-content">
+                            <h4>Holiday Schedule Changes</h4>
+                            <p>Adjusted timetables will be in effect from 15 December to 5 January. Long-distance routes will have additional departures. City routes will operate on a reduced Sunday schedule on public holidays.</p>
+                            <span class="alert-date"><i class="fas fa-calendar"></i> Posted: 25 May 2026</span>
+                        </div>
+                    </div>
+                    <div class="alert alert-success">
+                        <div class="alert-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="alert-content">
+                            <h4>New Route Launched</h4>
+                            <p>We are pleased to announce Route 8 (Pretoria – Lephalale) now operational with daily departures at 06:00 and 14:00. Book your seat today!</p>
+                            <span class="alert-date"><i class="fas fa-calendar"></i> Posted: 20 May 2026</span>
+                        </div>
+                    </div>
+                    <div class="alert alert-info">
+                        <div class="alert-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="alert-content">
+                            <h4>Safety Reminder</h4>
+                            <p>For your safety, please keep all belongings secure and report any suspicious activity to the driver or call our 24-hour hotline: 0800 SAFE BUS (0800 723 3287).</p>
+                            <span class="alert-date"><i class="fas fa-calendar"></i> Updated: 15 May 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Routes & Timetable -->
+            <div class="info-block">
+                <h3><i class="fas fa-clock"></i> Routes &amp; Timetable</h3>
+                <p class="timetable-intro">Our buses operate daily across multiple routes. Below is our current schedule. Times may vary on public holidays.</p>
+                
+                <div class="timetable-tabs">
+                    <button class="tab-btn active" data-tab="city">City Routes</button>
+                    <button class="tab-btn" data-tab="longdist">Long Distance</button>
+                </div>
+
+                <div class="timetable-wrapper" id="tab-city">
+                    <table class="timetable">
+                        <thead>
+                            <tr>
+                                <th>Route No.</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>First Bus</th>
+                                <th>Last Bus</th>
+                                <th>Frequency</th>
+                                <th>Fare</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="route-badge">R1</span></td>
+                                <td>CBD Central</td>
+                                <td>Mabopane</td>
+                                <td>05:00</td>
+                                <td>20:30</td>
+                                <td>Every 30 min</td>
+                                <td>R25</td>
+                            </tr>
+                            <tr>
+                                <td><span class="route-badge">R2</span></td>
+                                <td>Pretoria Station</td>
+                                <td>Hammanskraal</td>
+                                <td>05:30</td>
+                                <td>19:00</td>
+                                <td>Every 45 min</td>
+                                <td>R35</td>
+                            </tr>
+                            <tr>
+                                <td><span class="route-badge">R5</span></td>
+                                <td>Soshanguve</td>
+                                <td>Centurion</td>
+                                <td>04:45</td>
+                                <td>21:00</td>
+                                <td>Every 20 min</td>
+                                <td>R20</td>
+                            </tr>
+                            <tr>
+                                <td><span class="route-badge">R6</span></td>
+                                <td>Atteridgeville</td>
+                                <td>Menlyn Mall</td>
+                                <td>05:15</td>
+                                <td>20:00</td>
+                                <td>Every 25 min</td>
+                                <td>R22</td>
+                            </tr>
+                            <tr>
+                                <td><span class="route-badge">R7</span></td>
+                                <td>Mamelodi</td>
+                                <td>Church Square</td>
+                                <td>05:00</td>
+                                <td>20:30</td>
+                                <td>Every 20 min</td>
+                                <td>R18</td>
+                            </tr>
+                            <tr>
+                                <td><span class="route-badge">R9</span></td>
+                                <td>Ga-Rankuwa</td>
+                                <td>Hatfield</td>
+                                <td>05:30</td>
+                                <td>19:30</td>
+                                <td>Every 35 min</td>
+                                <td>R28</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="timetable-wrapper" id="tab-longdist" style="display: none;">
+                    <table class="timetable">
+                        <thead>
+                            <tr>
+                                <th>Route No.</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Departure</th>
+                                <th>Arrival</th>
+                                <th>Days</th>
+                                <th>Fare</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="route-badge route-long">L1</span></td>
+                                <td>Johannesburg</td>
+                                <td>Polokwane</td>
+                                <td>07:00</td>
+                                <td>11:30</td>
+                                <td>Daily</td>
+                                <td>R250</td>
+                            </tr>
+                            <tr>
+                                <td><span class="route-badge route-long">L2</span></td>
+                                <td>Pretoria</td>
+                                <td>Mokopane</td>
+                                <td>08:00</td>
+                                <td>11:00</td>
+                                <td>Daily</td>
+                                <td>R200</td>
+                            </tr>
+                            <tr>
+                                <td><span class="route-badge route-long">L3</span></td>
+                                <td>Johannesburg</td>
+                                <td>Tzaneen</td>
+                                <td>06:30</td>
+                                <td>12:00</td>
+                                <td>Mon, Wed, Fri, Sun</td>
+                                <td>R300</td>
+                            </tr>
+                            <tr>
+                                <td><span class="route-badge route-long">L4</span></td>
+                                <td>Pretoria</td>
+                                <td>Musina</td>
+                                <td>06:00</td>
+                                <td>12:30</td>
+                                <td>Tue, Thu, Sat</td>
+                                <td>R350</td>
+                            </tr>
+                            <tr>
+                                <td><span class="route-badge route-long">L5</span></td>
+                                <td>Pretoria</td>
+                                <td>Lephalale</td>
+                                <td>06:00 / 14:00</td>
+                                <td>09:30 / 17:30</td>
+                                <td>Daily</td>
+                                <td>R220</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="timetable-note">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Timetables are subject to change. For real-time updates, call <strong>+27 12 345 6789</strong> or check our social media pages.</p>
+                </div>
+            </div>
+
+            <!-- Fare Information -->
+            <div class="info-block">
+                <h3><i class="fas fa-money-bill-wave"></i> Fare Information</h3>
+                <div class="fare-grid">
+                    <div class="fare-card">
+                        <h4>City Routes</h4>
+                        <p class="fare-price">From R15</p>
+                        <ul>
+                            <li>Single trip within city limits</li>
+                            <li>Weekly pass available: R120</li>
+                            <li>Monthly pass: R400</li>
+                            <li>Student discount: 20% off</li>
+                        </ul>
+                    </div>
+                    <div class="fare-card featured">
+                        <h4>Long Distance</h4>
+                        <p class="fare-price">From R150</p>
+                        <ul>
+                            <li>Intercity travel</li>
+                            <li>Return ticket discount: 15%</li>
+                            <li>Senior citizen discount: 25%</li>
+                            <li>Children under 5: Free</li>
+                        </ul>
+                    </div>
+                    <div class="fare-card">
+                        <h4>Private Hire</h4>
+                        <p class="fare-price">Custom Quote</p>
+                        <ul>
+                            <li>Based on distance & duration</li>
+                            <li>Group discounts available</li>
+                            <li>Flexible scheduling</li>
+                            <li>All-inclusive packages</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">What Our Passengers Say</h2>
+            <p class="section-subtitle">Thousands of happy travellers trust Bahwaduba Bus Service every day. Here's what some of them have to say.</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"I travel from Soshanguve to Centurion every day for work. Bahwaduba buses are always on time and the drivers are professional. I wouldn't use any other service."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Thabo Molefe</h4>
+                            <p>Daily Commuter – Route 5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"We hired Bahwaduba for our church conference trip to Polokwane. 120 members, 3 buses — everything was perfectly organised. The buses were clean and comfortable. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Pastor N. Makhubela</h4>
+                            <p>Private Hire – Church Group</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"As a student, the 20% discount makes a real difference. The monthly pass is great value and the buses have USB charging ports which is a bonus for long trips home to Mokopane."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Lerato Dlamini</h4>
+                            <p>Student – Long Distance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"My elderly mother travels alone from Hammanskraal to Pretoria for her hospital appointments. The staff always assist her on and off the bus. That kind of care means everything to our family."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sipho Nkosi</h4>
+                            <p>Family Member – Route 2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="section">
+        <div class="container">
+            <h2 class="section-title">Careers</h2>
+            <p class="section-subtitle">Join our growing team and be part of a company that moves communities forward.</p>
+            <div class="jobs-grid">
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Professional Bus Driver</h3>
+                        <span class="job-type">Full-Time</span>
+                    </div>
+                    <p>We are looking for experienced, safety-conscious drivers with a valid PDP and Code 14 licence.</p>
+                    <ul>
+                        <li>Minimum 3 years driving experience</li>
+                        <li>Clean driving record</li>
+                        <li>Excellent customer service skills</li>
+                    </ul>
+                    <button class="btn btn-secondary" onclick="openApplyModal('Professional Bus Driver')">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Diesel Mechanic</h3>
+                        <span class="job-type">Full-Time</span>
+                    </div>
+                    <p>Qualified diesel mechanic needed to maintain and repair our fleet of buses.</p>
+                    <ul>
+                        <li>N3 or higher qualification</li>
+                        <li>Experience with heavy vehicles</li>
+                        <li>Diagnostic skills required</li>
+                    </ul>
+                    <button class="btn btn-secondary" onclick="openApplyModal('Diesel Mechanic')">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Customer Service Agent</h3>
+                        <span class="job-type">Full-Time</span>
+                    </div>
+                    <p>Friendly, bilingual individual to assist passengers and handle enquiries at our terminals.</p>
+                    <ul>
+                        <li>Matric certificate required</li>
+                        <li>Bilingual (English + one other)</li>
+                        <li>Computer literate</li>
+                    </ul>
+                    <button class="btn btn-secondary" onclick="openApplyModal('Customer Service Agent')">Apply Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apply Modal -->
+    <div class="modal" id="applyModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+            <h3>Apply for: <span id="jobTitle"></span></h3>
+            <form id="applyForm" class="form">
+                <div class="form-group">
+                    <label for="a-name">Full Name</label>
+                    <input type="text" id="a-name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="a-email">Email Address</label>
+                    <input type="email" id="a-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="a-phone">Phone Number</label>
+                    <input type="tel" id="a-phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="a-message">Cover Letter / Message</label>
+                    <textarea id="a-message" name="message" rows="4" placeholder="Tell us why you'd be a great fit..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+27 12 345 6789</p>
+                            <p>+27 80 000 1234 (Toll-Free)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@bahwaduba.co.za</p>
+                            <p>bookings@bahwaduba.co.za</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Transport Avenue</p>
+                            <p>Pretoria, Gauteng, 0001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Operating Hours</h4>
+                            <p>Mon - Fri: 05:00 - 21:00</p>
+                            <p>Sat - Sun: 06:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm" class="form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="c-name">Full Name</label>
+                                <input type="text" id="c-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="c-email">Email Address</label>
+                                <input type="email" id="c-email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="c-subject">Subject</label>
+                            <input type="text" id="c-subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="c-message">Message</label>
+                            <textarea id="c-message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-bus"></i> Bahwaduba Bus Service</h3>
+                    <p>Your trusted partner for safe, reliable, and comfortable travel across South Africa.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#passenger-info">Passenger Info</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">City Transport</a></li>
+                        <li><a href="#services">Long-Distance Travel</a></li>
+                        <li><a href="#services">Private Hire</a></li>
+                        <li><a href="#services">Corporate Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +27 12 345 6789</p>
+                    <p><i class="fas fa-envelope"></i> info@bahwaduba.co.za</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Pretoria, Gauteng</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bahwaduba Bus Service. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
